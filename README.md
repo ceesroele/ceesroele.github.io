@@ -81,6 +81,28 @@ publication less interesting.
 > RoBERTa / mBERT / Marian / python / transformers / parameter tuning / automated testing
 
 
+# Portfolio Sweep
+
+While being Scrum Master lead I wanted an overview of the planned and completed work of some 18 teams.
+Although all teams were working based on issues in JIRA and many made their own dashboards, it was hard
+to obtain a general overview of their work. Problem was that each team being responsible for its own processes had led to 
+them working in their own specific way and using JIRA differently.
+To get an overview of work to quickly understand how teams were doing I created a system that
+cleaned, aggregated, and visualised the data. Originally, I used java for business logic and 
+D3.js for visualization.
+
+After leaving the company, I decided to generalise the approach and rewrote the system 
+in python and using seaborn for visualisation. The new system implements a "Jira Query Language" 
+to query JIRA and stores the results in pandas dataframes for easy processing.
+
+This is the work that made me decide to change my career to data science.
+
+> I abandoned work on this because I didn't have access to an interesting JIRA dataset like
+> the one I started the project with.
+
+> data cleaning / regression modelling / data imputation / visualization / python / pandas / JIRA
+
+
 # Various
 
 ## AutoKeras Search Space
